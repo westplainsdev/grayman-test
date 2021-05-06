@@ -7,7 +7,7 @@ header.masthead {
   }
 
   header.masthead.overlay {
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     height: 100%;
@@ -31,3 +31,22 @@ header.masthead {
     width: 100%;
   }
   .site-heading h3 { color: #ffffff;}
+
+  /* Show it is fixed to the top */
+body {
+  min-height: 75rem;
+  padding-top: 3.5rem;
+}
+
+.sticky-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #343A40;
+  color: white;
+  text-align: center;
+  height: 3rem;
+  line-height: 3rem;
+  vertical-align: middle;
+}
