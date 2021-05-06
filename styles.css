@@ -1,5 +1,5 @@
 header.masthead {
-    background-image: url("/images/training.jpg");
+    background-image: url("images/training.jpg");
     width: 100%;
     height: 600px;
     background-size: cover;
