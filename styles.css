@@ -19,11 +19,15 @@ header.masthead {
 
   .site-heading {
    
-    color: #f0ede9;
+    font-family: 'Tenor Sans', sans-serif;
+    color: #f5f1ee;
     /* display: flex; */
     vertical-align: middle;
     text-align: right;
    /* justify-content: center;  align horizontal */
     align-items: center; /* align vertical*/
+    background-color: #8D6542;
+    opacity: 0.45;
+    width: 100%;
   }
   .site-heading h3 { color: #ffffff;}
